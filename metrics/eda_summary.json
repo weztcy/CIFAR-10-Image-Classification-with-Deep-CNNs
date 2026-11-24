@@ -1,0 +1,129 @@
+{
+  "files": {
+    "batches.meta": {
+      "size_bytes": 158,
+      "size_mb": 0.0
+    },
+    "data_batch_1": {
+      "size_bytes": 31035704,
+      "size_mb": 29.6
+    },
+    "data_batch_2": {
+      "size_bytes": 31035320,
+      "size_mb": 29.6
+    },
+    "data_batch_3": {
+      "size_bytes": 31035999,
+      "size_mb": 29.6
+    },
+    "data_batch_4": {
+      "size_bytes": 31035696,
+      "size_mb": 29.6
+    },
+    "data_batch_5": {
+      "size_bytes": 31035623,
+      "size_mb": 29.6
+    },
+    "test_batch": {
+      "size_bytes": 31035526,
+      "size_mb": 29.6
+    }
+  },
+  "shapes": {
+    "train_raw_total": [
+      50000,
+      32,
+      32,
+      3
+    ],
+    "train_split": [
+      45000,
+      32,
+      32,
+      3
+    ],
+    "val_split": [
+      5000,
+      32,
+      32,
+      3
+    ],
+    "test": [
+      10000,
+      32,
+      32,
+      3
+    ]
+  },
+  "pixel_value_range": {
+    "train_min": 0,
+    "train_max": 255,
+    "test_min": 0,
+    "test_max": 255,
+    "has_nan_train": false,
+    "has_nan_test": false
+  },
+  "duplicate_images_in_train": 0,
+  "normalization_stats_train": {
+    "mean": [
+      0.49113,
+      0.48211,
+      0.44645
+    ],
+    "std": [
+      0.24687,
+      0.24343,
+      0.2616
+    ]
+  },
+  "class_names": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "class_counts": {
+    "train": {
+      "airplane": 4500,
+      "automobile": 4500,
+      "bird": 4500,
+      "cat": 4500,
+      "deer": 4500,
+      "dog": 4500,
+      "frog": 4500,
+      "horse": 4500,
+      "ship": 4500,
+      "truck": 4500
+    },
+    "val": {
+      "airplane": 500,
+      "automobile": 500,
+      "bird": 500,
+      "cat": 500,
+      "deer": 500,
+      "dog": 500,
+      "frog": 500,
+      "horse": 500,
+      "ship": 500,
+      "truck": 500
+    },
+    "test": {
+      "airplane": 1000,
+      "automobile": 1000,
+      "bird": 1000,
+      "cat": 1000,
+      "deer": 1000,
+      "dog": 1000,
+      "frog": 1000,
+      "horse": 1000,
+      "ship": 1000,
+      "truck": 1000
+    }
+  }
+}

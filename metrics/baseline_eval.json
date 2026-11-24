@@ -1,0 +1,196 @@
+{
+  "model_name": "baseline",
+  "test_accuracy": 0.7778,
+  "test_loss": 0.6399,
+  "macro_avg_f1": 0.7742,
+  "weighted_avg_f1": 0.7742,
+  "total_params": 667690,
+  "trainable_params": 667690,
+  "checkpoint_size_mb": 7.68,
+  "latency_per_img_ms": 2.021,
+  "throughput_fps": 494.8,
+  "per_class": {
+    "airplane": {
+      "precision": 0.833,
+      "recall": 0.808,
+      "f1_score": 0.8203,
+      "support": 1000
+    },
+    "automobile": {
+      "precision": 0.8892,
+      "recall": 0.923,
+      "f1_score": 0.9058,
+      "support": 1000
+    },
+    "bird": {
+      "precision": 0.7577,
+      "recall": 0.563,
+      "f1_score": 0.646,
+      "support": 1000
+    },
+    "cat": {
+      "precision": 0.6458,
+      "recall": 0.527,
+      "f1_score": 0.5804,
+      "support": 1000
+    },
+    "deer": {
+      "precision": 0.7372,
+      "recall": 0.749,
+      "f1_score": 0.7431,
+      "support": 1000
+    },
+    "dog": {
+      "precision": 0.6291,
+      "recall": 0.704,
+      "f1_score": 0.6645,
+      "support": 1000
+    },
+    "frog": {
+      "precision": 0.7159,
+      "recall": 0.902,
+      "f1_score": 0.7982,
+      "support": 1000
+    },
+    "horse": {
+      "precision": 0.8471,
+      "recall": 0.809,
+      "f1_score": 0.8276,
+      "support": 1000
+    },
+    "ship": {
+      "precision": 0.8723,
+      "recall": 0.902,
+      "f1_score": 0.8869,
+      "support": 1000
+    },
+    "truck": {
+      "precision": 0.8494,
+      "recall": 0.891,
+      "f1_score": 0.8697,
+      "support": 1000
+    }
+  },
+  "confusion_matrix": [
+    [
+      808,
+      20,
+      37,
+      13,
+      11,
+      1,
+      12,
+      7,
+      50,
+      41
+    ],
+    [
+      4,
+      923,
+      0,
+      1,
+      0,
+      1,
+      10,
+      0,
+      11,
+      50
+    ],
+    [
+      66,
+      4,
+      563,
+      38,
+      88,
+      85,
+      103,
+      22,
+      14,
+      17
+    ],
+    [
+      13,
+      3,
+      40,
+      527,
+      55,
+      195,
+      109,
+      21,
+      17,
+      20
+    ],
+    [
+      14,
+      2,
+      29,
+      37,
+      749,
+      27,
+      79,
+      53,
+      9,
+      1
+    ],
+    [
+      5,
+      2,
+      26,
+      136,
+      46,
+      704,
+      31,
+      39,
+      8,
+      3
+    ],
+    [
+      5,
+      0,
+      21,
+      31,
+      16,
+      20,
+      902,
+      0,
+      4,
+      1
+    ],
+    [
+      9,
+      2,
+      20,
+      20,
+      49,
+      77,
+      4,
+      809,
+      2,
+      8
+    ],
+    [
+      35,
+      19,
+      5,
+      7,
+      1,
+      7,
+      6,
+      1,
+      902,
+      17
+    ],
+    [
+      11,
+      63,
+      2,
+      6,
+      1,
+      2,
+      4,
+      3,
+      17,
+      891
+    ]
+  ]
+}
